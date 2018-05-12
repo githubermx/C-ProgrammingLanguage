@@ -1,0 +1,277 @@
+https://github.com/almsx
+http://www.codeblocks.org/	-> IDE
+http://www.mingw.org/		-> MinGW
+
+------
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "Hola Mundo!\n";
+    return 0;
+}
+
+
+
+-----------
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "!Bienvenido a";
+    cout << "Dev-C++!\n";
+    return 0;
+}
+
+----------------
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "¡Bienvenido\na\nC++!\n";
+    return 0;
+}
+
+
+--------
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b,c;
+    a=5;
+    b=5;
+    c=0;
+
+    cout << a << b << c;
+    //cout << " y a la\n programación";
+    //cout << " en\n C++\n";
+    //return 0;
+}
+
+--------------
+
+
+//Ejemplo secuencias de escape
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b,c,d;
+    a=45;
+    b=23;
+    c=368;
+    d=345;
+
+    cout << "Impresión de \"variables\"\n";
+    cout << "a\tb\tc\td\n";
+    cout << a << "\t" << b << "\t" << c << "\t" << d << endl;
+    //cout << " y a la\n programación";
+    //cout << " en\n C++\n";
+    //return 0;
+}
+
+------------------------------------
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b,c;
+    float x,y,z;
+    a=5;
+    b=-2;
+    c=8;
+    x=a;
+    a=b;
+    y=x;
+    z=8.5;
+    x=z;
+
+    cout << "a=" << a << "\nb=" << b << "\nc=" << c << "\n";
+    cout << "x=" << x << "\ny=" << y << "\nz=" << z << "\n";
+    //cout << " y a la\n programación";
+    //cout << " en\n C++\n";
+    //return 0;
+}
+
+----------------------------------------
+
+Tarea #1
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    printf("Curso de Programaci%cn\n",162);
+    cout << "Programaci\xA2n\n";
+    cout << "KMMX\n";
+    cout << "Hola CDMX\n";
+}
+
+
+--
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+
+    cout << "*\n**\n***\n****\n*****\n";
+
+}
+
+
+--
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+
+    cout << "Color\tR\tG\tB\n";
+    cout << "Rojo\t255\t0\t0\n";
+    cout << "Verde\t0\t255\t0\n";
+    cout << "Blanco\t255\t255\t255\n";
+    cout << "Gris\t128\t128\t128\n";
+
+}
+
+____________________________________________________________________ Algunos Operadores en C
+
+int main()
+{
+    int a,b,c,d;
+
+    a=7;
+    b=2;
+    c=2;
+    d=4;
+
+    cout << "a + b = " << a+b << "\n";
+    cout << "d/c = " << d/c << "\n";
+    cout << "a + b - d/c = " << a+b-d/c << "\n\n";
+
+    cout << "a%c = " << a%c << "\n";
+    cout << "a%c + d = " << a%c+d << "\n\n";
+
+
+    cout << "(a + b)/(2*c + 3) = " << (a + b)/(2*c + 3) << "\n";
+    cout << "(a - c)/(4*b*c) = " << (a - c)/(4*b*c) << "\n";
+    cout << "(a - c)/4/b/c= " << (a - c)/4/b/c << "\n";
+
+    /*printf("Curso de Programaci%cn\n",162);
+    cout << "Programaci\xA2n\n";
+    cout << "KMMX\n";
+    cout << "Hola CDMX\n";*/
+}
+
+__________________________________________________________________ Entrada de datos
+
+
+int main()
+{
+
+    string var;
+
+    int a,b;
+
+    cout << "Ingrese a: ";
+    cin >> a;
+    cout << "Valor ingresado: " << a << "\n";
+    cout << "Ingrese b: ";
+    cin >> b;
+    cout << "Valor ingresado: " << b << "\n";
+    cout << a << " + " << b << " = " << a + b << "\n";
+    cout << a << " * " << b << " = " << a * b << "\n";
+    cout << a << " / " << b << " = " << a / b << "\n";
+    cout << a << " - " << b << " = " << a - b << "\n";
+}
+
+___________________________________________________________________
+
+// chicharronera
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+
+    string var;
+
+    int a,b,c;
+    //double x;
+
+    cout << "Ingrese a: ";
+    cin >> a;
+    cout << "Valor ingresado: " << a << "\n";
+    cout << "Ingrese b: ";
+    cin >> b;
+    cout << "Valor ingresado: " << b << "\n";
+    cout << "Ingrese c: ";
+    cin >> c;
+    cout << "Valor ingresado: " << c << "\n";
+
+    cout << "(b^2) = " << (b^2) << "\n";
+
+
+    cout << "x1= " << ( -b - sqrt(pow(b,2) - 4*a*c) ) / (2*a) << "\n";
+    cout << "x2= " << ( -b + sqrt(pow(b,2) - 4*a*c) ) / (2*a) << "\n";
+
+}
+
+-----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
